@@ -1,0 +1,113 @@
+body{
+    padding-bottom:250px;
+    background-color: rgb(205, 214, 221);
+}
+.cover {
+    width: 100%;
+    height: 500px;
+    background-image: url(http://kitty-whisperer.com/wp-content/uploads/2018/08/artwork-digital-art-cat-glasses.jpg);
+    background-size: cover;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, .9);
+    background-position: center;
+}
+
+
+.social {
+    color: rgb(100, 106, 110);
+    position: relative;
+    display: block;
+    text-align: center; 
+    
+}
+.name{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -40px;
+    color: rgb(49, 49, 49);
+}
+.social i:hover {
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+.tagline{
+    color: #666;
+    font-size: 1.1em;
+    text-align: center;
+    position: relative;
+    top: -55px;
+    text-transform: lowercase;
+
+
+}
+    
+.heading{
+        font-family: 'Merriweather', serif;
+        font-size: 3em;
+        color: rgb(43, 43, 43);
+        padding-left: 1cm
+        
+}
+.interests .row {
+    margin-top: 60px;
+}
+.interests i {
+    color: rgb(5, 5, 5);
+    padding: 30px;
+    transition: transform .5s;
+}
+
+
+.interests p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2em;
+    color: #222;
+    position: relative;
+    left: -30px;
+    opacity: 0;
+}
+
+.show {
+    left: 0 !important;
+    opacity: 1 !important;
+    transition: all .37s ease-in-out;
+    color: rgb(102, 103, 104) !important;
+}
+
+.interests i:hover {
+    color: rgb(68, 69, 71);;
+    transform: rotate(360deg);
+    transition: all .37s;
+}
+
+
+
+.text-centered {
+    text-align: center;
+
+}
+
+.nosmarques img {
+    border-radius: 4.5px;
+    margin: 20px 0 20px 0;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .9);
+    transition: box-shadow .3s;
+    
+    
+}
+.nosmarques img:hover {
+    cursor: pointer;
+    box-shadow: none;
+    color: #222;
+    
+}
+.parag{
+    text-align:
+}
+    
+    
+
+
+
+
